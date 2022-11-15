@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 40px;
+    background-color: black;
+}
+
+p {
+    color:blue;
+    height: 160;
+}
+.MKA {
+  
+    position:absolute;
+top: 0;
+ 
+    
+   transition: all 2s;
+    animation-name: bouge;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bouge {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.SPB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.texte  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
